@@ -1,0 +1,60 @@
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 2fr 11fr;
+    padding: 2rem 4rem;
+
+    .header {
+        text-align: center;
+    }
+
+    .filter {
+        background-color: #dddddd;
+        padding: 0 2rem;
+        border-radius: 10px;
+
+        .filter-section {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+
+            button {
+                background-color: #cccccc;
+                border: 0;
+                font-size: 15px;
+                font-weight: 700;
+                padding: 0.5rem 1rem;
+                border-radius: 5px;
+            }
+
+            button:hover{
+                color:#fff;
+                background-color: #777777;
+            }
+        }
+    }
+
+    .table {
+        margin: 2rem 0;
+        width: 100%;
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid #000;
+        }
+
+        thead th {
+            background-color: #dddddd;
+            padding: 0.5rem;
+            border: 1px solid #000;
+            text-align: le;
+        }
+
+        tbody tr td {
+            padding: 0.5rem;
+            border: 1px solid #000;
+        }
+    }
+}
